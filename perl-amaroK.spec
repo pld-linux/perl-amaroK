@@ -25,8 +25,6 @@ have to set the format for output, you can set it with set().
 
 %prep
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 
