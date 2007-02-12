@@ -2,7 +2,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	amaroK
 Summary:	amaroK - Module for controlling amaroK-player
-Summary(pl):	amaroK - modu³ do sterowania odtwarzaczem amaroK
+Summary(pl.UTF-8):   amaroK - moduÅ‚ do sterowania odtwarzaczem amaroK
 Name:		perl-amaroK
 Version:	0
 Release:	0.1
@@ -24,12 +24,12 @@ control amaroK. You can get information with get()-method and execute
 commands with command()-method. Before you can use get()-method you
 have to set the format for output, you can set it with set().
 
-%description -l pl
-Przy pomocy tego modu³u Perla mo¿na ³atwo pobieraæ informacje z
-amaroKa i sterowaæ nim. Mo¿na pobieraæ informacje przy u¿yciu metody
-get() i wykonywaæ polecenia przy u¿yciu metody command(). Przed
-u¿yciem metody get() trzeba ustawiæ format wyj¶cia, co mo¿na zrobiæ
-przy u¿yciu metody set().
+%description -l pl.UTF-8
+Przy pomocy tego moduÅ‚u Perla moÅ¼na Å‚atwo pobieraÄ‡ informacje z
+amaroKa i sterowaÄ‡ nim. MoÅ¼na pobieraÄ‡ informacje przy uÅ¼yciu metody
+get() i wykonywaÄ‡ polecenia przy uÅ¼yciu metody command(). Przed
+uÅ¼yciem metody get() trzeba ustawiÄ‡ format wyjÅ›cia, co moÅ¼na zrobiÄ‡
+przy uÅ¼yciu metody set().
 
 %prep
 
