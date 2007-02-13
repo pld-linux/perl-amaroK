@@ -2,7 +2,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	amaroK
 Summary:	amaroK - Module for controlling amaroK-player
-Summary(pl.UTF-8):   amaroK - moduł do sterowania odtwarzaczem amaroK
+Summary(pl.UTF-8):	amaroK - moduł do sterowania odtwarzaczem amaroK
 Name:		perl-amaroK
 Version:	0
 Release:	0.1
