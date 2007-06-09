@@ -5,7 +5,7 @@ Summary:	amaroK - Module for controlling amaroK-player
 Summary(pl.UTF-8):	amaroK - moduł do sterowania odtwarzaczem amaroK
 Name:		perl-amaroK
 Version:	0
-Release:	0.1
+Release:	1
 # same as perl ?
 License:	GPL v1+ or Artistic
 Vendor:		Markus "Linkku" Lindqvist <markus.lindqvist@gmail.com>
@@ -36,7 +36,11 @@ przy użyciu metody set().
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -D %{SOURCE0} $RPM_BUILD_ROOT%{perl_vendorlib}/%{pnam}.pm
+install -d $RPM_BUILD_ROOT%{perl_vendorlib}
+
+sed -e 's|#!/usr/bin/false|#!/bin/false|g' \
+	%{SOURCE0} > \
+	$RPM_BUILD_ROOT%{perl_vendorlib}/%{pnam}.pm
 
 %clean
 rm -rf $RPM_BUILD_ROOT
